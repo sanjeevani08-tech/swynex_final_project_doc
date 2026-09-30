@@ -1,13 +1,13 @@
 # Final Project Summary
 This project takes a deep dive into the Titanic dataset to understand what really drove passenger survival. I built a clean data pipeline to handle missing details—like filling in ages based on passenger titles—and ran an exploratory analysis across key factors like gender, class, and family size. The findings show clear patterns around priority boarding, upper-deck access, and family mobility during the evacuation. To pull it all together, I created an interactive dashboard that translates these historical trends into practical insights for emergency planning and resource management.
 
-# 🚢 Titanic Survival Analysis & Demographic Insights
+#  Titanic Survival Analysis & Demographic Insights
 
 An end-to-end data analytics project exploring passenger survival patterns on the RMS Titanic. This project includes structured data cleaning, domain-aware missing value imputation, exploratory data analysis (EDA), interactive dashboard visualization, and operational safety insights.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 On April 15, 1912, the RMS Titanic sank after colliding with an iceberg, leading to the loss of 1,502 lives out of 2,224 passengers and crew. This project analyzes **891 passenger records** to identify the primary demographic and socioeconomic drivers of survival.
 
@@ -19,7 +19,7 @@ On April 15, 1912, the RMS Titanic sank after colliding with an iceberg, leading
 
 ---
 
-## 📊 Repository Structure
+##  Repository Structure
 
 ```text
 ├── data/
@@ -38,7 +38,7 @@ On April 15, 1912, the RMS Titanic sank after colliding with an iceberg, leading
 
 ---
 
-🛠️ Data Cleaning & Feature Engineering
+ Data Cleaning & Feature Engineering
 
 Age Imputation: Grouped median imputation by Pclass and extracted passenger titles (Mr, Mrs, Miss, Master).
 
@@ -48,6 +48,6 @@ Cabin Transformation: Created binary indicator Has_Cabin (1 if recorded, 0 other
 
 Family Size Construction: Engineered FamilySize = SibSp + Parch + 1 and created a boolean flag Is_Alone.
 
-📄 Final Project Deliverable
+ Final Project Deliverable
 
 The complete, professionally styled report is available in Microsoft Word (.docx) format inside the folder.
