@@ -29,7 +29,7 @@ On April 15, 1912, the RMS Titanic sank after colliding with an iceberg, leading
 │   ├── 01_data_cleaning.ipynb         # Missing value imputation & feature engineering
 │   └── 02_exploratory_data_analysis.ipynb # Statistical EDA & visualizations
 ├── dashboard/
-│   ├── app.py                         # Plotly/Dash interactive dashboard code
+│   ├── app.py (html link)                         # Plotly/Dash interactive dashboard code
 │   └── dashboard_preview.png          # Visual layout screenshot
 ├── reports/
 │   ├── Titanic_Survival_Analysis_Final_Project.docx # Formatted MS Word Report
@@ -38,7 +38,7 @@ On April 15, 1912, the RMS Titanic sank after colliding with an iceberg, leading
 
 ---
 
- Data Cleaning & Feature Engineering
+Data Cleaning & Feature Engineering
 
 Age Imputation: Grouped median imputation by Pclass and extracted passenger titles (Mr, Mrs, Miss, Master).
 
@@ -48,6 +48,6 @@ Cabin Transformation: Created binary indicator Has_Cabin (1 if recorded, 0 other
 
 Family Size Construction: Engineered FamilySize = SibSp + Parch + 1 and created a boolean flag Is_Alone.
 
- Final Project Deliverable
+Final Project Deliverable
 
 The complete, professionally styled report is available in Microsoft Word (.docx) format inside the folder.
